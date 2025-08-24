@@ -97,4 +97,9 @@ pip freeze > requirements.txt
 ---
 
 ## 📄 License
-This project is licensed under the MIT License (or whichever you prefer).
+
+This repository is provided as a **template**.  
+When you use this template to start your own project, you are free to apply **any license you choose** (MIT, Apache 2.0, GPL, proprietary, etc.).  
+
+⚠️ Note: This template itself does not enforce a license on your derived project.  
+Please make sure to add your own `LICENSE` file in your project repository.
