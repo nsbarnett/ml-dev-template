@@ -1,3 +1,18 @@
+# RELEVENT FOR LINUX/MAC SYSTEMS ONLY TO USE:
+# 'make install'
+# 'make lint'
+# 'make format'
+# 'make type-check'
+# 'make test'
+
+# FOR WINDOWS USE:
+# 'pip install -r requirements.txt'
+# 'ruff check .'
+# 'black src tests'
+# 'mypy src'
+# 'pytest -q'
+
+
 .PHONY: install lint format type-check test
 
 # Install dependencies
