@@ -6,13 +6,16 @@ This repo provides a clean, professional structure for building ML projects that
 ---
 
 ## 📂 Project Structure
+
+```text
 ml-dev-template/
-├─ src/ # Main Python source code
-├─ tests/ # Unit and integration tests
-├─ notebooks/ # Jupyter notebooks for EDA and experiments
-├─ data/ # Local datasets (ignored in git)
-├─ models/ # Trained model artifacts (ignored in git)
-└─ README.md # Project documentation
+├─ src/          # Main Python source code
+├─ tests/        # Unit and integration tests
+├─ notebooks/    # Jupyter notebooks for EDA and experiments
+├─ data/         # Local datasets (ignored in git)
+├─ models/       # Trained model artifacts (ignored in git)
+└─ README.md     # Project documentation
+```
 
 ---
 
