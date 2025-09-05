@@ -40,9 +40,7 @@ jobs:
           fi
 
       - name: Pytest (tests)
-        run: |
-          if [ -d tests ]; then
-            pytest -q
-          else
-            echo "No tests/ directory yet; skipping pytest"
-          fi
+        if: ${{ hashFiles('tests/**') != '' }}
+        env:
+          PYTHONPATH: .
+        run: pytest -q
