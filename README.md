@@ -11,12 +11,17 @@ This repo provides a clean, professional structure for building ML projects that
 
 ```text
 ml-dev-template/
-├─ src/          # Main Python source code
-├─ tests/        # Unit and integration tests
-├─ notebooks/    # Jupyter notebooks for EDA and experiments
-├─ data/         # Local datasets (ignored in git)
-├─ models/       # Trained model artifacts (ignored in git)
-└─ README.md     # Project documentation
+├── .github/workflows/ci.yml     # Continuous Integration workflow
+├── .gitignore                   # Files and folders ignored by Git
+├── .pre-commit-config.yaml      # Pre-commit hooks for linting/formatting
+├── Makefile                     # Automation commands (lint/test/etc.)
+├── README.md                    # Project documentation
+├── requirements.txt             # Python dependencies
+├── src/                         # Main Python source code
+├── tests/                       # Unit and integration tests
+├── notebooks/                   # Jupyter notebooks for EDA and experiments
+├── data/                        # Local datasets (ignored in Git)
+└── models/                      # Trained model artifacts (ignored in Git)
 ```
 
 ---
