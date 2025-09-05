@@ -1,7 +1,5 @@
 # ML Dev Template
 
-![CI](https://github.com/nsbarnett/ml-dev-template/actions/workflows/ci.yml/badge.svg)
-
 A reusable Python machine learning project template with testing, linting, and CI.  
 This repo provides a clean, professional structure for building ML projects that are easy to reproduce, maintain, and share.
 
