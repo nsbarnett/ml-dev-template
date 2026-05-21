@@ -1,6 +1,12 @@
 # Virtual envs
 .venv/
 venv/
+env/
+
+# Environment/config
+.env
+.env.*
+!.env.example
 
 # Python cache
 __pycache__/
@@ -18,3 +24,6 @@ models/
 .mypy_cache/
 ruff_cache/
 pytest_cache/
+.vscode/
+.DS_Store
+Thumbs.db

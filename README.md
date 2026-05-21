@@ -98,11 +98,14 @@ Clone or fork this repo.
 - Add your data and code inside src/ and notebooks/.
 - Train and save models into models/ (ignored by git).
 - Update this README with project-specific details.
+- Copy `.env.example` to `.env` for local configuration values.
+- Choose and add a project-specific `LICENSE` before publishing derived work.
 
 ---
 
 ## 📌 Notes
 - data/ and models/ are gitignored so large files don’t clutter the repo.
+- `.env` files are ignored; commit only safe examples such as `.env.example`.
 - For reproducibility, update requirements.txt whenever you add a new package:
 ```bash
 pip freeze > requirements.txt
