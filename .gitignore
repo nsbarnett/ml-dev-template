@@ -14,16 +14,18 @@ __pycache__/
 *.pyo
 
 # ML/data artifacts
-data/
-models/
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
 
 # Jupyter
 .ipynb_checkpoints/
 
 # Tools/caches
 .mypy_cache/
-ruff_cache/
-pytest_cache/
+.ruff_cache/
+.pytest_cache/
 .vscode/
 .DS_Store
 Thumbs.db

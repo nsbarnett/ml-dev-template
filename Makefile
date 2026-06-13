@@ -18,6 +18,7 @@
 # Install dependencies
 install:
 	pip install -r requirements.txt
+	pip install -r requirements-dev.txt
 
 # Run Ruff (linting)
 lint:
